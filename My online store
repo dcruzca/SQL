@@ -1,0 +1,18 @@
+CREATE TABLE dani_store ( id INTEGER PRIMARY KEY, item_name TEXT, quantity INTEGER , isle INTEGER , price INTEGER); 
+INSERT INTO dani_store VALUES (1, "red boots", 2 , 4, 15);
+INSERT INTO dani_store VALUES (2, "blue shirt", 6 , 10 , 20);
+INSERT INTO dani_store VALUES (3, "bra", 10 , 5  , 6); 
+INSERT INTO dani_store VALUES (4 , "green shirt", 8 , 10 , 15); 
+INSERT INTO dani_store VALUES (5 , "snacks" , 4 , 1 , 9); 
+INSERT INTO dani_store VALUES (6 , "tablet" , 7 , 19 , 300); 
+INSERT INTO dani_store VALUES (7 , "glasses" , 3 , 4 , 89); 
+INSERT INTO dani_store VALUES (8, "games" , 7 , 8 , 9); 
+INSERT INTO dani_store VALUES (9, "numbers" , 9, 10 , 9); 
+INSERT INTO dani_store VALUES (10, "bread" , 7 , 9 , 10); 
+INSERT INTO dani_store VALUES (11, "wine" , 5 , 8 , 10);
+INSERT INTO dani_store VALUES (12, "air pods" , 4 , 5 , 8); 
+INSERT INTO dani_store VALUES (13, "air conditioning" , 5 , 7 , 9); 
+INSERT INTO dani_store VALUES (14, "valentina" , 4 , 7 , 8);
+INSERT INTO dani_store VALUES (15, "sneakers" , 5 , 7 , 9);
+SELECT * FROM dani_store;
+SELECT * FROM dani_store ORDER BY price des;
